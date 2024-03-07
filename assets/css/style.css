@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'Druk-SuperItalic';
+    src: url(../fonts/Druk-SuperItalic.otf);
+}
+
+@font-face {
+    font-family: 'DrukWide-SuperItalic';
+    src: url(../fonts/DrukWide-SuperItalic.otf);
+}
+
+@font-face {
+    font-family: 'TCCCUnity-Black';
+    src: url(../fonts/TCCCUnity-Black.ttf);
+}
+
+@font-face {
+    font-family: 'TCCCUnity-Bold';
+    src: url(../fonts/TCCCUnity-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'TCCCUnity-Medium';
+    src: url(../fonts/TCCCUnity-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'TCCC-UnityHeadline\ Medium';
+    src: url(../fonts/TCCC-UnityHeadline\ Medium.ttf);
+}
+
+body,
+html {
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    background: #0F8CF0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 767px;
+}
+
+.hero-sec {
+    padding: 5rem 0;
+}
+
+.logo-col {
+    padding: 0 5rem;
+}
+
+.under-logo p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: 'TCCC-UnityHeadline\ Medium';
+    margin-top: 2rem;
+}
+
+.hero-content h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 4.5rem;
+    font-style: italic;
+    margin-top: 1rem;
+    letter-spacing: -5px;
+    margin-bottom: 0;
+    color: #0F8CF0;
+}
+
+.hero-content h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1;
+    font-style: italic;
+    font-size: 3.75rem;
+    letter-spacing: -3px;
+}
+
+.hero-content h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1;
+    font-style: italic;
+    font-size: 2.25rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content h3 img {
+    position: absolute;
+    right: 3rem;
+    width: 5rem;
+    top: 1.5rem;
+}
+
+.form-col {
+    margin-top: 2rem;
+}
+
+.form-col .form-label {
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    font-family: 'TCCC-UnityHeadline\ Medium';
+    color: #fff;
+}
+
+.form-col .form-control {
+    min-height: 5rem;
+    border-radius: 0.625rem;
+    background-color: #fefefe;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 2px solid #231f20;
+}
+
+.form-label-1x {
+    display: flex;
+    align-items: self-start;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type=checkbox] {
+    accent-color: #000;
+}
+
+.form-label-1x input {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.form-label-1x input::after {
+    position: absolute;
+    content: '';
+    border: 2px solid #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.form-label-1x span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.25;
+    font-family: 'TCCC-UnityHeadline\ Medium';
+}
+
+.minor-first-col {
+    padding-left: 5rem;
+    padding-bottom: 4rem;
+}
+
+.d-btn {
+    min-height: 3rem;
+    background-color: #000;
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid transparent;
+    padding: 0.75rem 0.75rem;
+    width: 19rem;
+    max-width: 100%;
+    transition: .3s;
+    font-family: 'TCCC-UnityHeadline\ Medium';
+}
+
+.d-btn:hover {
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.plz-text {
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: -0.5rem;
+    font-family: 'TCCC-UnityHeadline\ Medium';
+}
+
+.required-inner {
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.once-head {
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.required-inner .once-head {
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-family: 'TCCC-UnityHeadline\ Medium';
+    color: #fff;
+}
+
+.required-inner .d-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 3.125rem;
+    font-weight: 700;
+    width: 35rem;
+    letter-spacing: 0px;
+    padding: 0.125rem 0.5rem 0.25rem;
+    min-height: 4rem;
+}
+
+.minor-first-col .form-label {
+    color: #000 !important;
+}
+
+.form-hero-sec .form-inner {
+    padding: 0 1.5rem;
+}
+
+.hero-sec {
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    min-height: 50rem;
+}
+
+.form-hero-sec {
+    background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    padding-bottom: 25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.moment-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 1rem 0;
+}
+
+.moment-col h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1;
+    font-style: italic;
+    font-size: 2.25rem;
+    margin-top: 4rem;
+}
+
+.moment-col h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 4.5rem;
+    font-style: italic;
+    margin-top: 5rem;
+    letter-spacing: -5px;
+    margin-bottom: 0;
+    color: #0F8CF0;
+}
+
+.moment-col h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    line-height: 0.825;
+    font-style: italic;
+    font-size: 4.75rem;
+    letter-spacing: -3px;
+}
+
+.moment-sec .logo-col {
+    margin-top: 5rem;
+    padding: 0 10rem;
+}
+
+.moment-sec .under-logo p {
+    font-size: 0.875rem;
+}
+
+.moment-sec {
+    background-image: url(../images/bg-3.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+}
